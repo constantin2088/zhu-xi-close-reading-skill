@@ -1,0 +1,20 @@
+{
+  "sources": [
+    {
+      "id": "original"
+    },
+    {
+      "id": "copy",
+      "parent": "original"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "sources": [
+        "original",
+        "copy"
+      ]
+    }
+  ]
+}
